@@ -1,3 +1,6 @@
+import { combineReducers } from 'redux';
+
+
 const  songsReducer = () => {
     return [
         {title: 'Death On Two Legs', duration: '3:43'},
@@ -14,4 +17,11 @@ const selectedSongReducer = (selectedSong=null, action) => {
 
     return selectedSong;
 };
+
+export default combineReducers({
+    songs: songsReducer,
+    selectedSong: selectedSongReducer
+});
+
+
 

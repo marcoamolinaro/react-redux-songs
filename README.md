@@ -70,4 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 Tools
 
-React-Redux ==> npm install --save react-redux
+React-Redux ==> npm install --save react-redux && npm install --save redux
