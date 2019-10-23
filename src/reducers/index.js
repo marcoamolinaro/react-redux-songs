@@ -4,8 +4,8 @@ import { combineReducers } from 'redux';
 const  songsReducer = () => {
     return [
         {title: 'Death On Two Legs', duration: '3:43'},
-        {title: 'Bohemian Rhapsody', duration: '5,54'},
-        {title: 'Lovo Of My Life', duration: '3,37'},
+        {title: 'Bohemian Rhapsody', duration: '5:54'},
+        {title: 'Lovo Of My Life', duration: '3:37'},
         {title: 'You Are My Best Friend', duration: '2:50'}
     ];
 };
